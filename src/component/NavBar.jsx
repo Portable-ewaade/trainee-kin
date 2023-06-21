@@ -29,7 +29,6 @@ const NavBar = () => {
             <li className="nav-item m-2 ">
               <a href="https://www.kinplusgroup.com/it-siwes" className="nav-link text-light">IT / SIWES</a>
             </li>
-            
           </ul>
         </div>
       </div>
