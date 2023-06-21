@@ -33,7 +33,7 @@ function MdodalForm() {
       </Modal>
 
       <Group position="center">
-        <Button onClick={open}>Open modal</Button>
+        <Button onClick={open}>APPLY NOW</Button>
       </Group>
     </>
   );
