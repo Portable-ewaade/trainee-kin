@@ -154,11 +154,13 @@ function ModalForm() {
         )}
       </Modal>
 
-      <Group>
-        <Button onClick={open}>APPLY NOW</Button>
+      <Group position="center">
+        <Button onClick={open}>Open modal</Button>
       </Group>
     </>
   );
 }
 
 export default ModalForm;
+
+export default MdodalForm
