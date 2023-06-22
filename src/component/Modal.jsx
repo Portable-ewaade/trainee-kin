@@ -108,7 +108,7 @@ function ModalForm() {
               value={email}
               onChange={(e) => setEmail(e.target.value)} 
               required
-              label="Email"  type='email' />
+              label="Email" type='email' />
                              
               <TextInput 
               value={dob}
@@ -154,13 +154,11 @@ function ModalForm() {
         )}
       </Modal>
 
-      <Group position="center">
-        <Button onClick={open}>Open modal</Button>
+      <Group >
+        <Button onClick={open}>APPLY NOW</Button>
       </Group>
     </>
   );
 }
 
-export default ModalForm;
-
-export default MdodalForm
+export default ModalForm
