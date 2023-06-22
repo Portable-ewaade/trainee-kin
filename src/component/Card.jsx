@@ -3,14 +3,14 @@ import MdodalForm from './Modal'
 
 const Card = () => {
   return (
-    <div>
+    <div className='bg-white p-0 m-0'>
         <div className="px-sm-4 py-3 mx-5 mb-5 home-training">
             <p> <a href='https://www.kinplusgroup.com/kinplus'>Home</a> / Training</p>
         </div>
         
-        <div className="container">
+        <div className="container ">
         <div class="row">
-            <div class="col-sm-4">
+            <div class=" col-md-6 col-lg-4">
                 <div class="card mb-4">
                 <div class="card-body">
                     <div className="text-center mb-4">
@@ -35,7 +35,7 @@ const Card = () => {
                 </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class=" col-md-6 col-lg-4">
                 <div class="card mb-4">
                 <div class="card-body">
                     <div className="text-center mb-4">
@@ -60,7 +60,7 @@ const Card = () => {
                 </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class=" col-md-6 col-lg-4">
                 <div class="card mb-4">
                 <div class="card-body">
                 <div className="text-center mb-4">
@@ -85,7 +85,7 @@ const Card = () => {
                 </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class=" col-md-6 col-lg-4">
                 <div class="card mb-4">
                 <div class="card-body">
                 <div className="text-center mb-4">
@@ -110,7 +110,7 @@ const Card = () => {
                 </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class=" col-md-6 col-lg-4">
                 <div class="card mb-4">
                 <div class="card-body">
                     <div className="text-center mb-4">
@@ -120,7 +120,7 @@ const Card = () => {
                          <h5 class="card-title">HARDWARE MAINTANCE & REPAIR</h5>
                         <p class="card-text p-color">Dive your way into learning how to identifying, troubleshooting and resolving problems and issues in a faulty computer</p>
 
-                        <div className="mt-4">
+                        <div className="">
                         <h5 className='price-color fw-medium '>Pricing</h5>
                         <div className="ol-color fw-medium">
                             <ol className='p-0 '>0 - 1 month: NGN 20,000</ol>
@@ -135,7 +135,7 @@ const Card = () => {
                 </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class=" col-md-6 col-lg-4">
                 <div class="card ">
                 <div class="card-body">
                      <div className="text-center mb-4">
@@ -162,12 +162,10 @@ const Card = () => {
             </div>
            
 
-
-           <div className="d-sm-flex justify-content-evenly mb-3 mt-sm-5 mt-md-4">
-           <div class="col-sm-4">
+            <div class=" col-md-6 col-lg-4 mx-lg-5">
                 <div class="card mb-4">
                 <div class="card-body">
-                     <div className="text-center mb-4">
+                     <div className="text-center mb-3">
                         <img src="../../assets/automation.jpg" alt="automation" />
                     </div>
                     <div className="p-3">
@@ -182,14 +180,14 @@ const Card = () => {
                             <ol className='p-0'>4 - 6 months: NGN 100,000</ol>
                         </div>
                    </div>
-                    <div className="mb-3">
+                    <div className="mb-2">
                     <MdodalForm/>
                     </div>
                     </div>
                 </div>
                 </div>
             </div>
-            <div class="col-sm-4 ">
+            <div class=" col-md-6 col-lg-4 mx-lg-5">
                 <div class="card mb-1">
                 <div class="card-body">
                      <div className="text-center mb-4">
@@ -214,7 +212,7 @@ const Card = () => {
                 </div>
                 </div>
             </div>
-           </div>
+
         </div>
         </div>
     </div>

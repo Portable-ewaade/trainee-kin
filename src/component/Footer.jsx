@@ -2,13 +2,13 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-color p-sm-3'>
-        <div className="container d-sm-flex justify-content-between text-light pt-3">
+    <div className='bg-color mt-3 mb-0 pb-0'>
+        <div className="container d-sm-flex justify-content-between text-light pt-4">
             <div className="footer-text">
                <img src="../../assets/logo3.jpg" alt="logo" className='mb-2' />
                <p>Kinplus Technologies is a software <br /> development company focused on building <br />scalable applications and software for <br /> businesses, corporate organisations, and individuals.</p>
             </div>
-            <div className="mb-4 links">
+            <div className="mb-3 links mx-xs-0 mx-sm-5 mx-md-5  mx-lg-0">
                <h6>LINKS</h6>
                <ol className='p-0'><a href="https://www.kinplusgroup.com/kinplus">Homepage</a></ol >
                <ol className='p-0'><a href="https://www.kinplusgroup.com/about">Know more about us</a></ol >
@@ -17,7 +17,7 @@ const Footer = () => {
                <ol className='p-0'><a href="https://www.kinplusgroup.com/interns">Internship programs</a></ol >
                <ol className='p-0'><a href="https://www.kinplusgroup.com/it-siwes">IT / SIWES program</a></ol >
             </div>
-            <div className="">
+            <div className="mx-xs-0 mx-sm-4 mx-md-5 mx-lg-0">
                 <h6>ADDRESS:</h6>
                 <p> Top Floor, 68B Christore Building, <br />
                     Opp. Crunchies Restaurant, <br />

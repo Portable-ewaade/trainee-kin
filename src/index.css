@@ -1,8 +1,10 @@
 body {
   margin: 0;
+  padding: 0;
   font-family:Poppins, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0A2142 !important;
 }
 
 code {
@@ -74,17 +76,16 @@ code {
   text-decoration: none !important;
 }
 .footer-text {
-  min-width: 35% !important;
-  max-width: 99% !important;
+  min-width: 40% !important;
+  max-width: 100% !important;
 }
 .header-text {
   min-width: 35% !important;
   max-width: 99% !important;
 }
 
-
 /* footer */
 .my-list {
   list-style-type: square;
-  /* font-size: 1.9em; */
+
 }

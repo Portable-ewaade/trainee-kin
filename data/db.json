@@ -1,0 +1,26 @@
+{
+  "interns": [
+    {
+      "fullname": "Kim Sharp",
+      "email": "wodadequq@mailinator.com",
+      "dob": "17-Jan-1997",
+      "phone": "187853246",
+      "gender": "female",
+      "address": "In quibusdam fugit ",
+      "track": "Commodo do in nesciu",
+      "packages": "2-3 months",
+      "id": 1
+    },
+    {
+      "fullname": "Kenyon Rosa",
+      "email": "dohogaq@mailinator.com",
+      "dob": "15-Oct-2021",
+      "phone": "36267543",
+      "gender": "male",
+      "address": "Tempor quia non prae",
+      "track": "Laboris consequatur ",
+      "packages": "4-6 months",
+      "id": 2
+    }
+  ]
+}
